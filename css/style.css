@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: center;
+}
+
+body{
+	background-color: rgb(246, 211, 231);
+	min-height: 100vh;
+	margin: 10px 10px;
+}
+
+h1{
+	color: rgb(37, 7, 24);
+	text-transform: uppercase;
+	padding: 30px 0;
+}
+input{
+	border-radius: 40px;
+	width: 400px;
+	padding: 15px;
+	outline: none;
+	font-size: 20px;
+	border: 2px solid rgb(37, 7, 24);
+	transition: all 0.3s ease;
+}
+input:focus{
+	border: 2px solid rgb(170, 0, 96);
+}
+
+#result{
+	display: flex;
+	flex: wrap;
+}
+/*img{
+	width: 80px;
+	height: 80px;
+}*/
+.pays-liste{
+	width: 500px;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	margin: 3rem auto;
+	padding: 15px;
+	box-shadow: 0 2px 5bx rgb(0, 0, 0, 0.5);
+	background-color: rgb(170, 85, 133);
+	color: #333;
+}
+
+.pays-drapeau{
+    width: 35px;
+    height: 30px;
+    margin-left: 0.5rem;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.pays-nom{
+	flex: 2;
+	text-align: center;
+}
+.pays-info{
+	flex: 1;
+	text-align: center;
+	border-left: 1px solid #333;
+}
+
+h2{
+	font-size: 1rem;
+}
+
+h5{
+	font-size: .7rem;
+	color: rgb(79, 66, 73);
+}
